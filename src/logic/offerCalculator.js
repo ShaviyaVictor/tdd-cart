@@ -12,7 +12,6 @@ export function getOfferTotal(sku, quantity) {
     offerTotal: 0,
     unmatchedItems: quantity
   };
-
   let skuOffer = offers[sku];
 
   if(skuOffer && quantity >= skuOffer.quantity) {
@@ -20,5 +19,7 @@ export function getOfferTotal(sku, quantity) {
     result.unmatchedItems = quantity % skuOffer.quantity;
     result.offerTotal = skuOffer.price * numberOfOfferMatches;
   }
+
+  return result;
 }
 

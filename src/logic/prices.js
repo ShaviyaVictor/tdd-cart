@@ -1,4 +1,5 @@
 'use strict'
+import { getOfferTotal } from "./offerCalculator";
 
 const products = {
   A: 50,
@@ -7,4 +8,12 @@ const products = {
   D: 15
 };
 
+export function calculate(sku, quantity) {
+  let total = 0;
+  let offerCalculationResult = getOfferTotal(sku, quantity);
 
+  total += products[sku] * offerCalculationResult.unmatchedItems;
+  total += offerCalculationResult.offerTotal;
+  
+  return total;
+}
