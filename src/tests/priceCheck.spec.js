@@ -47,4 +47,19 @@ describe('check price calculations', function() {
     });
   });
 
+  describe('D', function() {
+    it('should scan product D and add its respective price of 15', function() {
+      expect(calculate('D', 1)).toEqual(15);
+    });
+    it('should scan 2 D products and total 30', function() {
+      expect(calculate('D', 2)).toEqual(30);
+    });
+    it('should scan 3 D products and total 45', function() {
+      expect(calculate('D', 3)).toEqual(45);
+    });
+    it('should scan 4 D products and total 60', function() {
+      expect(calculate('D', 4)).toEqual(60);
+    });
+  });
+
 });
