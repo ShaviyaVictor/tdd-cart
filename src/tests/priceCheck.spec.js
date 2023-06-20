@@ -17,4 +17,19 @@ describe('check price calculations', function() {
     });
   });
 
+  describe('B', function() {
+    it('should scan product B and add its respective price of 30', function() {
+      expect(calculate('B', 1)).toEqual(30);
+    });
+    it('should scan 2 B products and total 60', function() {
+      expect(calculate('B', 2)).toEqual(60);
+    });
+    it('should scan 3 B products and total 90', function() {
+      expect(calculate('B', 3)).toEqual(90);
+    });
+    it('should scan 4 B products and total 120', function() {
+      expect(calculate('B', 4)).toEqual(120);
+    });
+  });
+
 });
