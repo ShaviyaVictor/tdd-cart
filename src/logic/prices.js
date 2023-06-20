@@ -1,4 +1,5 @@
 'use strict'
+
 import { getOfferTotal } from "./offerCalculator";
 
 const products = {
