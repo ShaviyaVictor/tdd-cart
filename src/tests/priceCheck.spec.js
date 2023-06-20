@@ -32,4 +32,19 @@ describe('check price calculations', function() {
     });
   });
 
+  describe('C', function() {
+    it('should scan product C and add its respective price of 25', function() {
+      expect(calculate('C', 1)).toEqual(25);
+    });
+    it('should scan 2 C products and total 50', function() {
+      expect(calculate('C', 2)).toEqual(50);
+    });
+    it('should scan 3 C products and total 75', function() {
+      expect(calculate('C', 3)).toEqual(75);
+    });
+    it('should scan 4 C products and total 100', function() {
+      expect(calculate('C', 4)).toEqual(100);
+    });
+  });
+
 });
