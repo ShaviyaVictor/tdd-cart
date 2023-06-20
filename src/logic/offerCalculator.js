@@ -1,4 +1,5 @@
 // sku - stock keeping units
+let offers = {};
 
 export function addOffer(sku, quantity, price) {
   offers[sku] = {
