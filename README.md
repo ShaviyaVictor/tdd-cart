@@ -1,5 +1,5 @@
 # tdd-cart
-TDD approach for implementing a shopping cart..
+TDD approach for implementing a shopping cart..     
 Implementing the code for a checkout system that handles pricing schemes such as “apples cost 50 pence, three apples cost £1.30.”
 
 Below are the sample prices:
