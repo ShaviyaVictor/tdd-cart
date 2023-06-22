@@ -17,6 +17,6 @@ ShoppingCart.prototype.total = function() {
 };
 
 ShoppingCart.prototype.scan = function(scannedSKU) {
-  let currentQuantity = itemQuantity || 0;
-  itemQuantity = ++currentQuantity;
+  let currentQuantity = this.items[scannedSKU] || 0;
+  this.items[scannedSKU] = ++currentQuantity;
 };
