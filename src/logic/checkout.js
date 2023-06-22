@@ -15,3 +15,4 @@ ShoppingCart.prototype.total = function() {
 
   return total;
 }
+

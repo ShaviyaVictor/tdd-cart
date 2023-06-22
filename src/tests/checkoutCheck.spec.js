@@ -15,4 +15,8 @@ describe('the shopping cart component check', function() {
     expect(cart.total()).toEqual(0);
   });
 
+  it('should be able to scan an item', function() {
+    expect(cart.scan).toBeTruthy();
+  });
+
 });
