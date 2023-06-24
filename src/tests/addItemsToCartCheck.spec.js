@@ -19,4 +19,11 @@ describe('add items to the shopping cart', function() {
     expect(cart.total()).toEqual(95);
   });
 
+  describe('A', function() {
+    it('should add item A and add price 50 for the item', function() {
+      cart.scan('A');
+      expect(cart.total()).toEqual(50);
+    });
+  });
+
 });
