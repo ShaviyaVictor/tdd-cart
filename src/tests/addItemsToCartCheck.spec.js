@@ -37,6 +37,13 @@ describe('add items to the shopping cart', function() {
       cart.scan('A');
       expect(cart.total()).toEqual(130);
     });
+    it('should add four A items and total the price to 180 inclusive of the offer and items ouside the offer', function() {
+      cart.scan('A');
+      cart.scan('A');
+      cart.scan('A');
+      cart.scan('A');
+      expect(cart.total()).toEqual(180);
+    });
 
   });
 
