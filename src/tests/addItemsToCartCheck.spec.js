@@ -28,7 +28,7 @@ describe('add items to the shopping cart', function() {
     it('should add two A items and total the price to 100', function() {
       cart.scan('A');
       cart.scan('A');
-      cart.scan('A');
+      // cart.scan('A');
       expect(cart.total()).toEqual(100);
     })
 
