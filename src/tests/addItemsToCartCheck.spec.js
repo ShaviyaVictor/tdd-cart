@@ -30,7 +30,13 @@ describe('add items to the shopping cart', function() {
       cart.scan('A');
       // cart.scan('A');
       expect(cart.total()).toEqual(100);
-    })
+    });
+    it('should add three A items and total the price to 130 according to the offer', function() {
+      cart.scan('A');
+      cart.scan('A');
+      cart.scan('A');
+      expect(cart.total()).toEqual(130);
+    });
 
   });
 
