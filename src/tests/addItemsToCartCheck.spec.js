@@ -51,7 +51,7 @@ describe('add items to the shopping cart', function() {
 
     it('should add item A and add price 30 for the item', function() {
       cart.scan('B');
-      expect(total()).toEqual(30);
+      expect(cart.total()).toEqual(30);
     });
 
   });
