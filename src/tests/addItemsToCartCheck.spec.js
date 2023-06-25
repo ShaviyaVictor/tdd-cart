@@ -53,6 +53,11 @@ describe('add items to the shopping cart', function() {
       cart.scan('B');
       expect(cart.total()).toEqual(30);
     });
+    it('should add 2 item B and total the price to 45', function() {
+      cart.scan('B');
+      cart.scan('B');
+      expect(cart.total()).toEqual(45);
+    })
 
   });
 
