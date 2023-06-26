@@ -101,4 +101,13 @@ describe('add items to the shopping cart', function() {
 
   });
 
+  describe('D', function() {
+
+    it('should add item D and add price 15 for the item', function() {
+      cart.scan('D');
+      expect(cart.total()).toEqual(15);
+    });
+
+  })
+
 });
