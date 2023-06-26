@@ -2,6 +2,8 @@
 TDD approach for implementing a shopping cart..     
 Implementing the code for a checkout system that handles pricing schemes such as “apples cost 50 pence, three apples cost £1.30.”  
 
+<img src="#" width="600" height="350" alt="">             
+
 In a normal store, things are identified using Stock Keeping Units, or SKUs.      
 Given the above instance, write up the code for a shopping cart that calculates the total price of a number of items.       
 
@@ -20,6 +22,21 @@ Our checkout accepts items in any order, so that if we scan a B, an A, and anoth
 
 The solution should allow for items to input within a simple user interface, and allow for a final total to be calculated and for a running total after each item is added to the basket
 
+## Built With
+
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)        
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/css)             
+* [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/)         
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)              
+* [Github](https://github.com/ShaviyaVictor/shaviya)
+
+## License
+
+This project is licensed under the [MIT License](https://github.com/ShaviyaVictor/tdd-cart/blob/main/LICENSE).           
+
+## Resources
+- [GitHub](https://github.com/JoyShaheb/shopping-cart-js/tree/main)          
+
 ## To Install the app:
 
     npm install
@@ -27,3 +44,20 @@ The solution should allow for items to input within a simple user interface, and
 ## Run the tests with:
 
     npm test
+
+## Acknowledgments
+
+* @shaviyavictor
+* @JoyShaheb
+
+
+### Author
+
+* **Victor Shaviya**        
+  - [BioLink](https://bio.link/shaviya)       
+  - [LinkedIn](https://www.linkedin.com/in/ShaviyaVictor/)          
+  - [Instagram](https://www.instagram.com/shaviyavictor/)        
+  - [Twitter](https://twitter.com/ShaviyaVictor)        
+  
+  
+**© Victor Shaviya**.
