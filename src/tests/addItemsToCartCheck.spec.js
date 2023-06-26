@@ -91,6 +91,13 @@ describe('add items to the shopping cart', function() {
       cart.scan('C');
       expect(cart.total()).toEqual(75);
     });
+    it('should add four item C and total the price to 100', function() {
+      cart.scan('C');
+      cart.scan('C');
+      cart.scan('C');
+      cart.scan('C');
+      expect(cart.total()).toEqual(100);
+    });
 
   });
 
