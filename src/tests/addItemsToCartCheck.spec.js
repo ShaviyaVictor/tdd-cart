@@ -49,7 +49,7 @@ describe('add items to the shopping cart', function() {
 
   describe('B', function() {
 
-    it('should add item A and add price 30 for the item', function() {
+    it('should add item B and add price 30 for the item', function() {
       cart.scan('B');
       expect(cart.total()).toEqual(30);
     });
@@ -72,6 +72,13 @@ describe('add items to the shopping cart', function() {
       expect(cart.total()).toEqual(90);
     });
 
+  });
+
+  describe('C', function() {
+    it('should add item C and add price 20 for the item', function() {
+      cart.scan('C');
+      expect(cart.total()).toEqual(20);
+    });
   });
 
 });
