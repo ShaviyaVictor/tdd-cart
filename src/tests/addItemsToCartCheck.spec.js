@@ -53,18 +53,18 @@ describe('add items to the shopping cart', function() {
       cart.scan('B');
       expect(cart.total()).toEqual(30);
     });
-    it('should add 2 item B and total the price to 45', function() {
+    it('should add two item B and total the price to 45', function() {
       cart.scan('B');
       cart.scan('B');
       expect(cart.total()).toEqual(45);
     });
-    it('should add 3 item B and total the price to 75', function() {
+    it('should add three item B and total the price to 75', function() {
       cart.scan('B');
       cart.scan('B');
       cart.scan('B');
       expect(cart.total()).toEqual(75);
     });
-    it('should add 4 item B and total the price to 90', function() {
+    it('should add four item B and total the price to 90', function() {
       cart.scan('B');
       cart.scan('B');
       cart.scan('B');
@@ -75,10 +75,17 @@ describe('add items to the shopping cart', function() {
   });
 
   describe('C', function() {
+
     it('should add item C and add price 25 for the item', function() {
       cart.scan('C');
       expect(cart.total()).toEqual(25);
     });
+    it('should add two item C and total the price to 50', function() {
+      cart.scan('C');
+      cart.scan('C');
+      expect(cart.total()).toEqual(50);
+    });
+
   });
 
 });
