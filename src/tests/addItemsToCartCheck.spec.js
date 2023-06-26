@@ -123,7 +123,7 @@ describe('add items to the shopping cart', function() {
       cart.scan('D');
       cart.scan('D');
       cart.scan('D');
-      expect(cart.total()).toEqual(60);
+      expect(cart.total()).toBe(60);
     });
 
   })
