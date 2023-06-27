@@ -34,6 +34,7 @@ This project is licensed under the [MIT License](https://github.com/ShaviyaVicto
 
 ## Resources
 - [GitHub](https://github.com/JoyShaheb/shopping-cart-js/tree/main)          
+- [Jest](https://jestjs.io/docs/expect)          
 
 ## To Install the app:
 
