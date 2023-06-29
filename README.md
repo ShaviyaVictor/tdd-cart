@@ -46,8 +46,6 @@ This project is licensed under the [MIT License](https://github.com/ShaviyaVicto
 ## Acknowledgments
 
 * @shaviyavictor
-* @JoyShaheb
-
 
 ### Author
 
