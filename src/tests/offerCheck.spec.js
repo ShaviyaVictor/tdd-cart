@@ -42,5 +42,4 @@ describe('check offer calculations', function() {
     });
   });
 
-
 });
