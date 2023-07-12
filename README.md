@@ -32,8 +32,7 @@ The solution should allow for items to input within a simple user interface, and
 
 This project is licensed under the [MIT License](https://github.com/ShaviyaVictor/tdd-cart/blob/main/LICENSE).           
 
-## Resources
-- [GitHub](https://github.com/JoyShaheb/shopping-cart-js/tree/main)          
+## Resources         
 - [Jest](https://jestjs.io/docs/expect)          
 
 ## To Install the app:
@@ -47,8 +46,6 @@ This project is licensed under the [MIT License](https://github.com/ShaviyaVicto
 ## Acknowledgments
 
 * @shaviyavictor
-* @JoyShaheb
-
 
 ### Author
 
