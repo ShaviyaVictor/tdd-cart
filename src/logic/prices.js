@@ -2,6 +2,7 @@
 
 import { getOfferTotal } from "./offerCalculator";
 
+// products object 
 const products = {
   A: 50,
   B: 30,
